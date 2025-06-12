@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Salud</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+        .section-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <!-- Navigation Bar -->
+    <nav class="bg-blue-600 text-white p-4 sticky top-0 shadow-md">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">La Salud </h1>
+            <ul class="flex space-x-6">
+                <li><a href="#definicion" class="hover:underline">Definición</a></li>
+                <li><a href="#aspectos" class="hover:underline">Aspectos</a></li>
+                <li><a href="#factores" class="hover:underline">Factores</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-blue-800 text-white text-center py-16">
+        <div class="section-container">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4 fade-in">Definición de la Salud</h1>
+            <p class="text-lg md:text-xl max-w-3xl mx-auto fade-in">
+                La salud es más que la ausencia de enfermedades: es un estado de completo bienestar físico, mental y social.
+            </p>
+        </div>
+    </header>
+
+    <!-- Definición Section -->
+    <section id="definicion" class="py-16 bg-white">
+        <div class="section-container">
+            <h2 class="text-3xl font-semibold text-blue-800 mb-6 fade-in">¿Qué es la Salud?</h2>
+            <p class="text-gray-700 leading-relaxed mb-6 fade-in">
+                Según la Organización Mundial de la Salud (OMS), la salud es un estado de completo bienestar físico, mental y social, y no solo la ausencia de enfermedades. Para estar verdaderamente sano, una persona debe sentirse bien en su cuerpo, mente y entorno social. 
+            <img src="IMG/Medios-actuales-para-cuidar-de-la-salud-bienestar-fisico-y-mental-1000x600.jpg" width="300" height="300"
+            </p>
+        </div>
+    </section>
+
+    <!-- Aspectos de la Salud -->
+    <section id="aspectos" class="py-16 bg-gray-100">
+        <div class="section-container">
+            <h2 class="text-3xl font-semibold text-blue-800 mb-8 fade-in">Aspectos Clave de la Salud</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Bienestar Físico -->
+                <div class="bg-white p-6 rounded-lg shadow-md fade-in">
+                    <i class="fas fa-heartbeat text-blue-600 text-3xl mb-4"></i>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">Bienestar Físico</h3>
+                    <ul class="list-disc pl-5 text-gray-700 space-y-2">
+                        <li><strong>Nutrición adecuada:</strong> Consumir una dieta balanceada que aporte los nutrientes necesarios.</li>
+                        <li><strong>Actividad física regular:</strong> Mantener el cuerpo activo para fortalecer músculos y el sistema cardiovascular.</li>
+                        <li><strong>Descanso suficiente:</strong> Dormir las horas necesarias para la recuperación.</li>
+                        <li><strong>Higiene personal:</strong> Prevenir infecciones mediante una buena higiene.</li>
+                        <li><strong>Prevención de enfermedades:</strong> Vacunación y exámenes médicos regulares.</li>
+                        <center><img src="IMG/image.jpg.jpg" width="300" height="300"</center>
+                    </ul>
+                </div>
+                <!-- Bienestar Mental -->
+                <div class="bg-white p-6 rounded-lg shadow-md fade-in">
+                    <i class="fas fa-brain text-blue-600 text-3xl mb-4"></i>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">Bienestar Mental</h3>
+                    <ul class="list-disc pl-5 text-gray-700 space-y-2">
+                        <li><strong>Manejo del estrés:</strong> Estrategias para enfrentar presiones diarias.</li>
+                        <li><strong>Resiliencia:</strong> Adaptarse y recuperarse ante adversidades.</li>
+                        <li><strong>Autoestima:</strong> Sentirse bien consigo mismo.</li>
+                        <li><strong>Relaciones saludables:</strong> Mantener conexiones positivas con los demás.</li>
+                        <li><strong>Ayuda profesional:</strong> Acceder a terapia cuando sea necesario.</li>
+                        <center><img src="IMG/WhatsApp Image 2025-06-10 at 10.23.57 AM.jpeg" width="300" height="500"></center>
+                    </ul>
+                </div>
+                <!-- Bienestar Social -->
+                <div class="bg-white p-6 rounded-lg shadow-md fade-in">
+                    <i class="fas fa-users text-blue-600 text-3xl mb-4"></i>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">Bienestar Social</h3>
+                    <ul class="list-disc pl-5 text-gray-700 space-y-2">
+                        <li><strong>Participación comunitaria:</strong> Involucrarse en actividades sociales.</li>
+                        <li><strong>Apoyo social:</strong> Contar con una red de familiares y amigos.</li>
+                        <li><strong>Acceso a recursos:</strong> Disponer de servicios básicos como educación y salud.</li>
+                        <li><strong>Sentido de pertenencia:</strong> Sentirse parte de una comunidad.</li>
+                        <center><img src="IMG/image.jpg (1).jpg" width="300" height="300"</center>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Factores que Impactan la Salud -->
+    <section id="factores" class="py-16 bg-white">
+        <div class="section-container">
+            <h2 class="text-3xl font-semibold text-blue-800 mb-8 fade-in">Factores que Impactan la Salud</h2>
+            <div class="space-y-12">
+                <!-- Consumo de Sustancias -->
+                <div class="fade-in">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-4">Consumo de Sustancias</h3>
+                    <p class="text-gray-700 mb-4">
+                        El consumo de ciertas sustancias puede tener un impacto negativo en la salud física y mental:
+                    </p>
+                    <ul class="list-disc pl-5 text-gray-700 space-y-2">
+                        <li><strong>Problemas físicos:</strong> Daño a órganos como el cerebro, corazón, pulmones, hígado y riñones.</li>
+                        <li><strong>Problemas mentales:</strong> Aumento de ansiedad, depresión, paranoia y deterioro cognitivo.</li>
+                        <li><strong>Riesgos de accidentes:</strong> Deterioro del juicio y la coordinación.</li>
+                        <li><strong>Adicción:</strong> Búsqueda compulsiva de la sustancia pese a las consecuencias.</li>
+                    </ul>
+                </div>
+                <!-- Enfermedades Crónicas -->
+                <div class="fade-in">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-4">Enfermedades Crónicas</h3>
+                    <p class="text-gray-700 mb-4">
+                        Afecciones de larga duración que suelen ser manejables, pero no curables:
+                    </p>
+                    <ul class="list-disc pl-5 text-gray-700 space-y-2">
+                        <li><strong>Impacto físico:</strong> Dolor, fatiga, limitaciones físicas y dependencia de medicamentos.</li>
+                        <li><strong>Impacto mental:</strong> Estrés, ansiedad, depresión y frustración.</li>
+                        <li><strong>Impacto social:</strong> Limitaciones laborales y sociales, problemas financieros.</li>
+                    </ul>
+                </div>
+                <!-- Ansiedad -->
+                <div class="fade-in">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-4">Ansiedad</h3>
+                    <p class="text-gray-700 mb-4">
+                        La ansiedad excesiva puede convertirse en un trastorno que afecta el funcionamiento diario:
+                    </p>
+                    <ul class="list-disc pl-5 text-gray-700 space-y-2">
+                        <li><strong>Síntomas físicos:</strong> Palpitaciones, sudoración, temblores, dificultad para respirar.</li>
+                        <li><strong>Síntomas mentales:</strong> Preocupación excesiva, irritabilidad, problemas para dormir.</li>
+                        <li><strong>Cambios de comportamiento:</strong> Evitar situaciones, aislamiento social.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-600 text-white py-8">
+        <div class="section-container text-center">
+            <p class="text-lg">© 2025 - Información sobre la Salud. Todos los derechos reservados.</p>
+            <p class="mt-2">Para más información, consulta la <a href="https://www.who.int/es" class="underline" target="_blank">OMS</a>.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Fade-In Animation -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const elements = document.querySelectorAll('.fade-in');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.1 });
+
+            elements.forEach(element => observer.observe(element));
+        });
+    </script>
+</body>
+</html>
